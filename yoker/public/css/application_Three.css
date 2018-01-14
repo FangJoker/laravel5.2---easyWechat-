@@ -1,0 +1,69 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-color:snow;
+}
+    .page__bd{
+    	/*background-color: #0524FF;*/
+    	background-color: #0DB2F7;
+        box-shadow: 0px 0px 7px 0px;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+    }
+    .ri{
+        color:#fff;
+        font-size: 16px;
+    }
+    .h4{
+    	width: 90%;
+    	margin:auto;
+    	margin-top: -30px;
+    	color: #0DB2F7;
+        letter-spacing: 1px;
+    }
+    h4 span{
+    	color: #e3e3e3;
+    	font-size: 10px;
+    }
+    .school{
+    	width: 90%;
+    	margin:auto;
+    	/*height:300px;*/
+    	background-color: #fff;
+    	margin-top: 15px;
+    	margin-bottom: 15px;
+    	box-shadow: 0px 0px 8px 0px gray;
+    }
+    .schoolDes{
+    	color: #053E3E;
+    	width: 90%;
+    	margin:auto;
+    	padding-top: 15px;
+    	padding-bottom: 8px;
+    }
+    .schoolDes span{
+    	color: #e3e3e3;
+    }
+    hr{
+    	color:#EEEEEE;
+    	opacity: 0.5;
+    }
+    .schoolTel{
+    	width: 100%;
+    	margin:auto;
+    	text-align: center;
+    }
+    a{
+    	font-size: 15px;
+    	color: #0DB2F7;
+    }
+    footer{
+    	width: 100%;
+    	text-align: center;
+    	margin-bottom: 10px;
+    	font-size: 12px;
+    	color: #cdcdcd;
+    }

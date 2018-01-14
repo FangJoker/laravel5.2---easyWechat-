@@ -1,0 +1,44 @@
+*{
+  width: 100%;
+}
+	body{
+		 width: 94%;
+		 height: 100%;
+		 background: -webkit-linear-gradient(right,rgba(58,166,178),rgba(29,70,98));/* chrome*/
+		 background: -o-linear-gradient(right,rgba(58,166,178),rgba(29,70,98)); /* Opera*/
+	     background: -moz-linear-gradient(right,rgba(58,166,178),rgba(29,70,98)); /* Firefox*/
+	     background: -ms-linear-gradient(right,rgba(58,166,178),rgba(29,70,98));/* ie*/
+
+	}
+	.img{
+		width: 35%;
+		height: 40%;
+		margin: 30%;
+		animation:big 3s;
+		animation:rotate 3s;	
+	}
+	#time{
+		background-color: snow;
+		border-radius:5px;
+		opacity: 0.4;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 60%;
+        font-size: 12px;
+	}
+	@keyframes big{
+		0%{
+			transform:scale(0.5);
+
+		}
+		100%{
+			transform:scale(1.0);
+			
+		}
+	}
+	@keyframes rotate{
+		100%{
+			transform:rotate(360deg);
+		}
+	}
+	
